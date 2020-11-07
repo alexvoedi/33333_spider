@@ -1,0 +1,43 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: green;
+	font-family: sans-serif;
+}
+
+.card {
+	border: 1px solid black;
+	background-color: white;
+	width: 8vw;
+	height: 12vw;
+	position: absolute;
+	font-size: 6vw;
+	text-align: center;
+	cursor: grab;
+}
+
+
+.hidden {
+	background-color: darkred;
+	font-size: 0;
+}
+
+.slots {
+	display: flex;
+	margin: 1em;
+	justify-content: space-around;
+}
+
+.slot {
+	background-color: darkgreen;
+	width: 8vw;
+	height: 12vw;
+}
+
+.stock {
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	width: 8vw;
+	height: 12vw;
+}
