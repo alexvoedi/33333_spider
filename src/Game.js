@@ -7,7 +7,7 @@ export default class Game {
 	constructor() {
 		this.createCards()
 		this.createSlots()
-		// this.shuffleCards()
+		this.shuffleCards()
 		this.createStacks()
 		this.createStock()
 
